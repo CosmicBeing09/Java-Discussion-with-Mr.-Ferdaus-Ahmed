@@ -1,7 +1,5 @@
 package java_discussion_17;
 
-import java.util.ArrayList;
-
 public class Library {
     private Book[] books = new Book[100];
     private int currentBookIndex = 0; //2 -> 0th 1st
@@ -209,7 +207,7 @@ public class Library {
                     break;
                 }
             }
-           lineSpearator();
+            lineSpearator();
         }
         else {
             boolean isUserFound = false;
