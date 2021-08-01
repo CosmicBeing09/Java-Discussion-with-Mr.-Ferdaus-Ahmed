@@ -6,7 +6,7 @@ public class Main {
 //        ThreadDemo t2 = new ThreadDemo("B");
 //        ThreadDemo t3 = new ThreadDemo("C");
 
-        Thread t1 = new ThreadDemo();
+        Thread t1 = new ThreadDemo(); //new
         t1.setName("Thread 1");
 
         Thread t2 = new ThreadDemo();
