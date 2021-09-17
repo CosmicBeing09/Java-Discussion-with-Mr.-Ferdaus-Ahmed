@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="css/css_file_1.css">
+       <script>
+           function my_func(id) {
+              var element =  document.getElementById(id);
+              var data = element.querySelector("h2").innerHTML;
+              window.alert(data + " " + "is cliked");
+           }
+       </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Reg. No.</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Nazia</td>
+                <td>255</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Raihan</td>
+                <td>255</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Munif</td>
+                <td>2555</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Nayeem</td>
+                <td>2556</td>
+                <td>A+</td>
+            </tr>
+        </table>
+        <div class="london" id="div_1" onclick="my_func(this.id)">
+            <h2>London</h2>
+            <p>British people are damn racist</p>
+        </div>
+        <div class="dhaka" id="div_2" onclick="my_func(this.id)">
+            <h2>Dhaka</h2>
+            <p>Capital of Bangladesh</p>
+        </div>
+        <div class="tokyo" id="div_3" onclick="my_func(this.id)">
+            <h2>Tokyo</h2>
+            <p>Capital of Japan</p>
+        </div>
+    </body>
+</html>
